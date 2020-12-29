@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#">
+        First Name<input type="text" required="required">
+        <br>
+        Last Name<input type="text" autocomplete="on"
+        placeholder="Enter your last name">
+        <br>
+        e-mail <input type="email">
+        <br>
+        Age <input type="number" min="0" max="125">
+        <br>
+        URL<input type="url">
+        <br>
+        Distance from home <input type="range" min="10" max="300000" step="10" value="0" onChange="output.value">
+        <output id="output">0</output>
+        <br>
+        color <input type="color" value="#000000"
+        onchange="output1.value=value">
+        <output id="output1">0</output>
+        <br>
+        DOJ <input type="date">
+        <br>
+        Time <input type="time">
+        <br>
+        D & T <input type="datetime-local">
+        <br>
+        Ph No. <input type="text" pattern=[0-9]{10}>
+        <br>
+        Roll No. <input type="text" pattern="[0-9]{2}[A-Z]{2}[0-9]{3}">
+        <br>
+        <input type="submit">
+    <audio src="./" controls controllist="nodownload"></audio>
+    <video src=""></video>
+    </form>
+</body>
+</html>

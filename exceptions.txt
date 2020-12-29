@@ -1,0 +1,54 @@
+PROPERTIES  CLASS
+
+Invalidalogin="Oops.. Login name or password Is Not Acceptable ...!"
+
+FileNotLoad="Oops.. file could not load please try again later ...!"
+
+longFileNameMessage="You have Given Long File Name .This System Accept Only Less Than 25 Characters To File Name ..!"
+
+notAvailableMessage="Oops.. Given File Is File Is Not Available Into Our Directory ...!"
+
+specialcharacterMessage="Oops.. You have given special characters into file name . This System does not take Special characters ...!"
+
+NotValid="Oops.. you enter zero It is not acceptable"
+
+
+
+
+
+
+
+
+
+
+
+ALL EXCEPTIONS
+
+1.
+package src.com.ncu.Exception;
+public class FileNotLoadException extends Exception 
+{
+    FileNotLoadException(String s)
+    {
+        super(s);
+    }
+}
+2.
+package src.com.ncu.Exception;
+public class InvalidLoginException extends Exception 
+{
+    InvalidLoginException(String s)
+    {
+        super(s);
+    }
+}
+3.
+package src.com.ncu.Exception;
+public class NotValidException extends Exception 
+{
+    public NotValidException(String s)
+    {
+        super(s);
+    }
+}
+
